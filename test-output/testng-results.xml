@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-02T12:30:50 IST" name="Default suite" finished-at="2025-05-02T12:30:54 IST" duration-ms="4081">
+  <suite started-at="2025-05-02T19:15:40 IST" name="Default suite" finished-at="2025-05-02T19:15:43 IST" duration-ms="3291">
     <groups>
     </groups>
-    <test started-at="2025-05-02T12:30:50 IST" name="Default test" finished-at="2025-05-02T12:30:54 IST" duration-ms="4081">
-      <class name="test.TestExample">
-        <test-method signature="apiTest()[pri:0, instance:test.TestExample@4550bb58]" started-at="2025-05-02T12:30:50 IST" name="apiTest" finished-at="2025-05-02T12:30:52 IST" duration-ms="2160" status="PASS">
+    <test started-at="2025-05-02T19:15:40 IST" name="Default test" finished-at="2025-05-02T19:15:43 IST" duration-ms="3291">
+      <class name="test.GetAndPostMethod">
+        <test-method signature="posttest()[pri:0, instance:test.GetAndPostMethod@b3ca52e]" started-at="2025-05-02T19:15:40 IST" name="posttest" finished-at="2025-05-02T19:15:43 IST" duration-ms="3246" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- apiTest -->
-        <test-method signature="test1()[pri:0, instance:test.TestExample@4550bb58]" started-at="2025-05-02T12:30:52 IST" name="test1" finished-at="2025-05-02T12:30:53 IST" duration-ms="1062" status="PASS">
+        </test-method> <!-- posttest -->
+        <test-method signature="secondtest()[pri:0, instance:test.GetAndPostMethod@b3ca52e]" started-at="2025-05-02T19:15:43 IST" name="secondtest" finished-at="2025-05-02T19:15:43 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:test.TestExample@4550bb58]" started-at="2025-05-02T12:30:53 IST" name="test2" finished-at="2025-05-02T12:30:54 IST" duration-ms="807" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- test.TestExample -->
+        </test-method> <!-- secondtest -->
+      </class> <!-- test.GetAndPostMethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

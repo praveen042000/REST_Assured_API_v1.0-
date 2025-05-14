@@ -5,7 +5,7 @@
     <classes>
       <class name="test.PutPatchDeleteMethod">
         <methods>
-          <include name="postmethod"/>
+          <include name="putMethod1"/>
         </methods>
       </class> <!-- test.PutPatchDeleteMethod -->
     </classes>

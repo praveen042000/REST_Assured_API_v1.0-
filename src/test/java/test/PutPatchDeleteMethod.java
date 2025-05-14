@@ -55,6 +55,31 @@ public class PutPatchDeleteMethod {
 	    String id = response.jsonPath().getString("id");
 	    System.out.println("New object ID: " + id);
 	}
-
+@Test
+	
+	public void patchmethod() {
+		JSONObject request = new JSONObject();
+		request.put("name", "Ram");
+		request.put("job", "DevopsEngineer");
+		System.out.println(request.toJSONString());
+		baseURI ="https://reqres.in/api";
+		given().header("content-type","application/json")
+		  .header("x-api-key", "reqres-free-v1")
+		.contentType(ContentType.JSON).accept(ContentType.JSON)
+		.body(request.toJSONString()).when().patch("/users/2")
+		.then().statusCode(200).log().all();
+		}
+@Test
+public void deletemethod() {
+	baseURI="https://reqres.in";
+	given()
+	.header("Content-Type", "application/json")
+	.header("x-api-key", "reqres-free-v1").
+	when().
+	delete("/api/users/2")
+	.then()
+	.statusCode(204)
+	.log().all();
+}
 
 }

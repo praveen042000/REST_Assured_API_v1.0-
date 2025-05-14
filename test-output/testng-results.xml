@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-14T14:54:00 IST" name="Default suite" finished-at="2025-05-14T14:54:04 IST" duration-ms="3865">
+  <suite started-at="2025-05-14T17:56:19 IST" name="Default suite" finished-at="2025-05-14T17:56:25 IST" duration-ms="5480">
     <groups>
     </groups>
-    <test started-at="2025-05-14T14:54:00 IST" name="Default test" finished-at="2025-05-14T14:54:04 IST" duration-ms="3865">
+    <test started-at="2025-05-14T17:56:19 IST" name="Default test" finished-at="2025-05-14T17:56:25 IST" duration-ms="5480">
       <class name="test.PutPatchDeleteMethod">
-        <test-method signature="postMethodCreateObject()[pri:0, instance:test.PutPatchDeleteMethod@279fedbd]" started-at="2025-05-14T14:54:00 IST" name="postMethodCreateObject" finished-at="2025-05-14T14:54:03 IST" duration-ms="3405" status="PASS">
+        <test-method signature="deletemethod()[pri:0, instance:test.PutPatchDeleteMethod@45c7e403]" started-at="2025-05-14T17:56:19 IST" name="deletemethod" finished-at="2025-05-14T17:56:22 IST" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletemethod -->
+        <test-method signature="patchmethod()[pri:0, instance:test.PutPatchDeleteMethod@45c7e403]" started-at="2025-05-14T17:56:22 IST" name="patchmethod" finished-at="2025-05-14T17:56:23 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchmethod -->
+        <test-method signature="postMethodCreateObject()[pri:0, instance:test.PutPatchDeleteMethod@45c7e403]" started-at="2025-05-14T17:56:23 IST" name="postMethodCreateObject" finished-at="2025-05-14T17:56:24 IST" duration-ms="1620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethodCreateObject -->
-        <test-method signature="postmethod()[pri:0, instance:test.PutPatchDeleteMethod@279fedbd]" started-at="2025-05-14T14:54:03 IST" name="postmethod" finished-at="2025-05-14T14:54:04 IST" duration-ms="374" status="PASS">
+        <test-method signature="postmethod()[pri:0, instance:test.PutPatchDeleteMethod@45c7e403]" started-at="2025-05-14T17:56:24 IST" name="postmethod" finished-at="2025-05-14T17:56:25 IST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postmethod -->
